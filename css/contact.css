@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+  font-family: 'Rubik', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+body{
+    background-image: url();
+}
+header {
+    background-image: url(../1.jpg);
+    background-size: cover;
+    height: 30vh;
+    background-attachment: fixed;
+    position: relative;
+}
+.overlay-c {
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+}
+.contact-detail{
+    margin-top: -10rem; 
+    position: relative;
+}
+.contact-form-holder{
+    margin-top: 3rem;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 50%);
+}
+.elementor-icon-list-item{
+    list-style: none;
+    padding-bottom: calc(50px/2);
+}
+.cu{
+    width: 50%;
+}
+.cu-2{
+    width: 50%;
+    text-align: end;
+}
+.home::after{
+    content: "";
+    width: auto;
+    left: auto;
+    right: auto;
+    position: relative;
+    height: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left-width: 1px;
+    border-style: solid;
+    right: -8px;
+    margin-right: 15px;
+    
+}
+
+.contact-form-holder .row{
+    position: relative;
+}
+.contact-form-holder .underline{
+    height: 3px;
+    position: absolute;
+    top: 45px;
+    width: 7rem;
+    background: #2575fc;
+}
+.contact-form-holder p{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.elementor-icon-list-item{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.elementor-icon-list-text{
+    margin-left: 8px;
+}
+.back-g{
+    background-image: url(../2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media screen and (max-width:990px){
+    .contact-left{
+        width: 100% !important;
+    }
+    .contact-right{
+        width: 100% !important; 
+    }
+}
+@media screen and (max-width:768px){
+    input{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:425px){
+   .elementor-widget-container{
+       padding: 0 !important;
+   } 
+   .cu{
+       width: 100%;
+   }
+   .cu-2{
+       width: 100%;
+       text-align: left;
+   }
+}
+.first{
+    background-image: url("../img/stay-in-touch-1.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 0;
+  }
+  .overlay{
+      width: 100%;
+      height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .raw{
+        display: flex;
+        width: 86%;
+        margin-left: 7%;
+        padding-top: 10%;
+        color: white;
+    }
+    .title{
+        width: 26.433%;
+        padding: 10px;
+        color: #FFFFFF;
+        font-family: "Roboto", Sans-serif;
+        font-size: 20px;
+    }
+    .tit{
+        font-size: 20px;
+        font-weight: bold; 
+    }
+    .menu{
+        direction: rtl;
+        width: 73.567%;
+        padding: 10px;
+    }
+    .item-menu{
+        margin-right: 8px;
+        margin-left: 8px;
+        border-right: 1px solid white;
+        padding-right: 10px;
+    }
+    .seconde{
+        background-image: url("../img/about-us (1).jpg");
+        width: 100%;
+        height: 95%;
+    }

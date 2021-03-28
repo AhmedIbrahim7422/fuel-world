@@ -1,0 +1,441 @@
+/* ============= START NAVBAR ============== */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+  font-family: 'Rubik', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+
+  /* ============= START first section ============== */
+
+  .first{
+      background-image: url("../img/slider1.jpg");
+      width: 100%;
+      background-size: cover;
+      height: 500px;
+
+  }
+  .our-service{
+      position: relative;
+      top:  48%;
+      width: 82%;
+      margin-left: 8.5%;
+    background-color: transparent;
+    background-image: linear-gradient(
+/*180deg,*/ rgba(50, 124, 156, 0.86) 0%, rgba(50, 124, 156, 0.55) 100%);
+color: white;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+  }
+
+  .service{
+    width: 23%;
+    margin: 1%;
+    border: 2px solid #e18714;
+  }
+  /* ============= end first section ============== */
+
+    /* ============= START seconed section ============== */
+
+
+      /* ============= end seconed section ============== */
+
+
+  .logo-holder{
+    padding-top: 11%;
+  }
+  .Upstream{
+    padding-top: 5%;
+  }
+  .pcenter{
+    margin-bottom: 0;
+  }
+
+  .service-name{
+    margin-top: 7%;
+    font-size: x-large;
+    font-weight: bold;
+  }     
+  
+  /* ============= end seconed section ============== */
+
+
+      /* ============= START seconed section ============== */
+
+      .second{
+        background-image: url("../img/silder2.jpg");
+        width: 100%;
+        background-size: cover;
+      }
+    
+      .second> .row{
+        margin-left: 10%;
+      }
+      .div-holder{
+        width: 40%;
+        margin-top: 4%;
+      }
+      .need{
+        color: #327C9C;
+        font-family: "Roboto", Sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0px 0px 10px 0px;
+      }
+    .LLC{
+      color: #292929;
+      text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+      margin: 0px 0px 025px 0px;
+      font-family: "Poppins", Sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+    }
+    .LLC-about{
+      font-family: "Roboto", Sans-serif;
+      font-weight: 400;
+      line-height: 26px;
+      margin: 0px 0px 0px 0px;
+      font-size: 93.75%;
+    }
+    .about-llc{
+      margin-top: 8%;
+      background-color: #ffffff;
+      display: flex;
+      flex-wrap: wrap;
+
+    }
+    .icon{
+      color: #327c9c;
+      font-size: xxx-large;
+    }
+    .icon-words{
+      margin: 20px 2px 20px 2px;
+      color: #292929;
+      font-family: "Poppins", Sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 26px;
+      margin-left: 3%;
+    }
+    .llc-info{
+      color: #616161;
+      font-family: "Roboto", Sans-serif;
+      font-size: 16px;
+      line-height: 26px;
+      margin-left: 14%;
+    }
+    .price_box{
+      width: 171.77px;
+      height: 51.5px;
+      border-style: solid;
+      border-color: #327c9c;
+      border-radius: 50px;
+      background-color:#327c9c;
+      margin-top: 7%;
+    margin-bottom: 10%;
+    align-items: center ;
+    }
+    .price{
+      left: 7%;
+      top: -30%;
+      position: relative;
+    }
+    .price_box:hover{
+      width: 173px;
+      height: 53px;
+    }
+
+    .imgs-holder{
+      width: 50%;
+      margin-top: 1%;
+      margin-bottom: 1.5%;
+    }
+
+      
+      /* ============= end seconed section ============== */
+
+  /* ============= START third section ============== */
+
+  .third{
+    background-image: url("../img/silder3.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 533px;
+    background-attachment: fixed;
+  }
+  
+  .third-p{
+    width: 46%;
+    padding-top: 7%;
+  }
+  .supply{
+    color: #ffffff;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+    margin: 0px 0px 015px 0px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .supply-p{
+    color: #ffffff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 38px 0px;
+    text-align: center;
+  }
+  .info{
+    display: flex;
+    width: 82%;
+    margin-left: 8.5%;
+    background-color: blue;
+    position: relative;
+    margin-bottom: 1px;
+  }
+  .element{
+    color: #ffffff;
+    width: 33.33%;
+  }
+  .element-icon{
+    font-size: xxx-large;
+  }
+  .element-h{
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .element-p{
+    color: #ffffff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    line-height: 1.85714285714286;
+  }
+  .element-info{
+    margin: 10%;
+  }
+  .pu{
+    background-color: #4f5fcd;
+  }
+  .bl{
+    background-color: #4d89e3;
+  }
+  .lb{
+    background-color: #4aa8d9;
+  }
+
+  /* ============= end third section ============== */
+
+  /* ============= start forth section ============== */
+
+
+  .forth{
+    background-image: url("../img/silder4.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 6.8%;
+  }
+ 
+  .forth-title{
+    color: #333333;
+    font-family: "Roboto", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+  }
+  .provide{
+    color: #292929;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+    margin: 0px 0px 060px 0px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    
+  }
+  
+  .containerr{
+    width: 90%;
+    margin-left: 8%;
+    margin-top: 5%;
+    
+  }
+
+  .card{
+     width: 30%;
+     padding: 0;
+     border: none;
+     margin-right:2% ;
+     margin-bottom: 4%;
+  }
+  .img-holder{
+    width: 100%;
+    height: 50%;
+  }
+  .text-holder{
+    height: 50%;
+    margin-top: 18%;
+    margin-left: 7%;
+  }
+  .text-title{
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px
+  }
+  .text-inf{
+    margin: 0px 0px 14px 0px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    color: #3a3a3a;
+  }
+  .btn{
+    color: #2575fc;
+  }
+  .card:hover .btn{
+    background-color: #2575fc;
+    color: white;
+  }
+   /* ============= end forth section ============== */
+
+
+  .footer{
+    background-image: url("../img/footer.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: .1%;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    height: 100%;
+  }
+  .overlay{
+    height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+  }
+  .ss{
+      padding-left: 5% ;
+      padding-top: 5%;
+  }
+  .about{
+      width: 38%;
+      margin-right: 2%;
+  }
+  .contact{
+      width: 31%;
+      margin-right: 2%;
+  }
+  .links{
+      width:25% ;
+  }
+  .list> ul{
+      background-color: rgba(0, 0, 0, 0.03);
+      box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      vertical-align:baseline
+  }
+  .list> ul> li{
+    border-bottom: 1px solid #e5e5e5;
+    transition: all 0.3s ease-in-out 0s;
+    position: relative;
+    box-sizing: inherit;
+    padding: 8px;
+  }
+  .cop{
+    
+    border-top: 1px black solid ;
+    margin-top: 7%;
+
+  }
+  .copyright{
+    margin-left: 37%;
+    font-size: 16px;
+    margin-top: 1.5%;
+  }
+
+  @media screen and (max-width:780px){
+  .our-service{
+    top: 42%;
+    width: 98%;
+    margin-left: 1%;
+  }
+ .second> .row{
+    margin-left: 1%;
+  }
+  .div-holder{
+    width: 98%;
+  }
+  .imgs-holder{
+    width: 98%;
+  }
+  .info{
+    width: 98%;
+    margin: 1%;
+  }
+  .element{
+    width: 100%;
+  }
+  .third{
+    height: auto;
+  }
+  .ss{
+    padding-left: 0;
+  }
+  .cardd{
+    width: 48%;
+  }
+}
+@media screen and (max-width:600px){
+.our-service{
+  top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 97%;
+}
+.service{
+  width: 98%;
+}
+.first{
+  height: auto;
+}
+.containerr{
+  width: 92%;
+  margin-left: 4%;
+  margin-top: 5%;
+}
+.card {
+  width: 100%;
+}
+.cardd{
+  width: 98%;
+  
+}
+.contact{
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+.copyright{
+margin-left: 0;
+}
+}
+
+
